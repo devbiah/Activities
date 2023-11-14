@@ -12,8 +12,8 @@ function verificarProduto() {
       imagemColar.style.display = 'none';
       resultado.innerText = `Não há um produto disponível para compra.`;
     }
-  } else {
-    resultado.innerText = 'Por favor, insira um nome e um preço válido para o produto.';
-    imagemColar.style.display = 'none';
+    } else {
+      resultado.innerText = 'Por favor, insira um nome e um preço válido para o produto.';
+      imagemColar.style.display = 'none';
   } 
 }
