@@ -7,8 +7,11 @@ function verificarProduto() {
   if (nomeProduto && !isNaN(precoProduto) && precoProduto > 0) {
     if (nomeProduto === 'necklace') {
       imagemColar.style.display = 'block';
-      resultado.innerText = `O produto ${nomeProduto} está disponível para compra!`
-  }
+      resultado.innerText = `O produto ${nomeProduto} está disponível para compra!`;
+    } else {
+      imagemColar.style.display = 'none';
+      resultado.innerText = `Não há um produto disponível para compra.`;
+    }
   } else {
     resultado.innerText = 'Por favor, insira um nome e um preço válido para o produto.';
     imagemColar.style.display = 'none';
