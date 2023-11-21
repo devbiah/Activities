@@ -4,8 +4,8 @@ body {
   padding: 0;
   color: rgb(255, 255, 255);
   background-image: url('https://66.media.tumblr.com/7b3c2a5ad7a9651e94098d82fed6113e/tumblr_nubi4py95Z1taknieo1_500.gif');
-  background-size: cover;
-  height: 100vh;
+  background-size: auto;
+  height: 50vh;
 }
 
 
