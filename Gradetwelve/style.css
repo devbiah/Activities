@@ -1,0 +1,216 @@
+#tema{
+    background-color: black;
+    color: aliceblue;
+}
+#p1{
+    color: brown;
+    font-size: large;
+    font-family:'Verdana';
+}
+#cap{
+    color: crimson;
+    font-size: 15px;
+    font-style: italic;
+}
+#escrita{
+    color: darkcyan;
+    font-style: oblique;
+    width: 10cm;
+}
+#espaco{
+    padding: 0.6cm;
+    margin: 0.1px;
+}
+#alinhamento{
+    text-align: end;
+}
+#central{
+    position: absolute;
+    left: 1; right: 1;
+    margin: auto
+}
+ol{
+    width: 500px;
+    text-indent: 2em;
+    list-style-type: upper-roman;
+}
+a{
+    color: chartreuse;
+    text-decoration:underline;
+    
+}
+.nav {
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: black;}
+    
+    .nav * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+      }
+      
+      .nav li {
+        display: inline-block;
+        list-style: outside none none;
+        margin: .5em 1em;
+        padding: 0;
+      }
+      
+      .nav a {
+        padding: .5em .8em;
+        color: rgba(255,255,255,.5);
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .nav a::before,
+      .nav a::after {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0;
+      }
+      
+      .nav a::before {
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 3px solid #3E8914;
+        border-right: 3px solid #2E640F;
+        transform: translate(-100%, 50%);
+      }
+      
+      .nav a:after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 3px solid #2E640F;
+        border-left: 3px solid #3E8914;
+        transform: translate(100%, -50%)
+      }
+      
+      .nav a:hover:before,
+      .nav a:hover:after{
+        transform: translate(0,0);
+        opacity: 1;
+      }
+      
+      .nav a:hover {
+        color: #3DA35D;
+      }
+
+#botao{
+    background-color: darkslateblue;
+    color: rgb(255, 255, 255);
+    border-radius:10px;
+    width: 100px;
+    font-weight: bolder;
+    background: transparent url(https://imgs.search.brave.com/DSUTc5hUOsxVZ_Q-L88Kd94s08PxKHx9ZEGCxi0UHmQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dHNpbmdhcG9yZS5j/b20vcC9rdHdvd2Mu/anBn) no-repeat center top;
+    background-size: 150px
+}
+img{
+    width: 10cm;
+    margin: auto;
+    border-color: black;
+    border: 5px solid;
+}
+#menu ul li {
+    display: inline; 
+}
+#menu ul li a { 
+    padding: 2px 10px; 
+    display: inline-block;
+    background-color:#EDEDED; 
+    color: #333; 
+    text-decoration: none; 
+    border-bottom:3px solid #EDEDED; 
+}
+#forms{
+    background-color: #adadad;
+    color: #3f0000;
+    border: 0.1cm solid;
+    border-radius: 0.3cm;
+}
+#name{
+  border: 2px solid;
+  border-radius: 6px;
+}
+#nome{
+  color: rgb(255, 74, 74);
+}
+#fem{
+  background-color: pink;
+}
+#masc{
+  background-color: skyblue;
+}
+#nb{
+  background-color: rgb(255, 202, 182);
+}
+#g{
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+#caixa1{
+border: 3px solid pink;
+box-shadow: 5px 6px hotpink; 
+text-align: center;
+font-size: 0.5cm;
+}
+#caixa2{
+  border: 2px solid rgb(224, 106, 106);
+  box-shadow: 4px 5px rgb(155, 15, 15); 
+  text-align: center;
+  font-size: 0.4cm;
+  }
+
+#tabelinha{
+ color:#2E640F;
+ background-color: rgb(193, 253, 233);
+ border-radius: 10px;
+ width: 5cm;
+ height: 3cm;
+ border: 0.1cm solid;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#a{
+  color:#3f0000;
+  font-size: 0.5cm;
+} 
+
+.column {
+	flex-direction: column;
+}
+
+#h11{
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;  
+  text-align: center;
+
+}
+.item {
+	flex: 1;
+	margin: 5px;
+  color:white;
+	background: rgb(129, 19, 120);
+	text-align: center;
+	font-size: 1.5em;
+}
+#aa{
+  text-align: left;
+}
+
+#gr{
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
