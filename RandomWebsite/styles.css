@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  background-image: url('https://66.media.tumblr.com/7b3c2a5ad7a9651e94098d82fed6113e/tumblr_nubi4py95Z1taknieo1_500.gif');
+  background-size: auto;
+  height: 50vh;
+}
+
+
+header {
+  text-align: center;
+  background-color: rgb(182, 0, 0);
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #ffc200;
+}
+
+.produto-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carrinho {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.carrinho h2 {
+  margin-bottom: 15px;
+}
+
+.carrinho ul {
+  padding: 0;
+  list-style: none;
+}
+
+.carrinho button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carrinho button:hover {
+  background-color: #ffc200;
+}

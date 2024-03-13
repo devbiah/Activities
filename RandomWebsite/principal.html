@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Loja!</h1>
+  </header>
+  <hr/>
+  <div class="form">
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto">
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade">
+    <button onclick="verificarProduto()">Verificar Produto</button>
+    <p id="resultado"></p>
+  </div>
+
+  <div class="produto-info">
+    <img src="/pasta imagens/BlohshNecklaceSterlingDetail_grande (1).webp" id="imagemColar" width="100" height="100" style="display: none;">
+    <button id="botao" style="display: none;">Adicionar ao Carrinho</button>
+    <button id="irParaLoja" style="display: none;" onclick="redirecionarLoja()">Comprar na Loja</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
