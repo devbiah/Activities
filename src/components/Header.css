@@ -1,0 +1,35 @@
+header {
+    overflow: hidden;
+    background-color: #8c7050;
+    padding: 1rem 1.56rem;
+    background: url(//cache.umusic.com/_sites/_halo/billieeilish/images/hbg.jpg) center / cover no-repeat;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+   }
+   
+   header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem;
+   }
+   
+   nav ul li {
+    margin-left: 2rem;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: custom-font, serif !important;
+    font-weight: normal !important;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+   }
+
+   #logo{
+    height: 60px;
+    width: 200px;
+    display: block;
+    transform: translate(-1%, 15%);
+    justify-content: center;
+}
+
